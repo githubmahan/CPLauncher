@@ -8,15 +8,9 @@ serverStatusPlaceholder = "오프라인"
 mojangStatus = "MOJANG 상태"
 mojangStatusTooltipTitle = "서비스"
 mojangStatusNETitle = "Non&nbsp;Essential"
-newsButton = "NEWS"
 launchButton = "PLAY"
 launchButtonPlaceholder = "&#8226; 선택된 서버 없음"
 launchDetails = "잠시만 기다려주세요.."
-newsNavigationStatus = "{currentPage} / {totalPages}"
-newsErrorLoadSpan = "뉴스를 확인하는 중.."
-newsErrorFailedSpan = "뉴스 불러오기 실패"
-newsErrorRetryButton = "다시 시도"
-newsErrorNoneSpan = "뉴스 없음"
 
 [ejs.login]
 loginCancelText = "취소"
@@ -57,6 +51,7 @@ navJava = "Java"
 navLauncher = "런처"
 navAbout = "정보"
 navUpdates = "업데이트"
+navLicense = "라이선스"
 navDone = "완료"
 tabAccountHeaderText = "계정 설정"
 tabAccountHeaderDesc = "새로운 계정을 추가하거나 기존 계정을 관리합니다."
@@ -76,7 +71,6 @@ tabModsHeaderDesc = "모드를 활성화하거나 비활성화합니다."
 switchServerButton = "변경"
 requiredMods = "필수 모드"
 optionalMods = "선택 모드"
-dropinMods = "사용자 추가 모드"
 addMods = "모드 추가"
 dropinRefreshNote = "(F5를 눌러 새로고침)"
 shaderpacks = "쉐이더팩"
@@ -117,19 +111,20 @@ devToolsConsole = "DevTools Console"
 releaseNotes = "릴리즈 노트"
 changelog = "변경 로그"
 noReleaseNotes = "릴리즈 노트 없음"
-viewReleaseNotes = "GitHub에서 릴리즈 노트 보기"
 launcherUpdatesHeaderText = "런처 업데이트"
 launcherUpdatesHeaderDesc = "런처 업데이트를 확인하고 설치합니다."
+licenseHeaderText = "라이센스"
+licenseHeaderDesc = "라이센스를 확인합니다."
 checkForUpdates = "업데이트 확인"
 whatsNew = "새로운 기능"
 updateReleaseNotes = "업데이트 릴리즈 노트"
+license = "MIT License<br>Copyright (c) 2017-2024 Daniel D. Scalzi<br>Copyright (c) 2024 peunsu<br>Copyright (c) 2025 sebs3054<br><br>Permission is hereby granted, free of charge, to any person obtaining a copy<br>of this software and associated documentation files (the \"Software\"), to deal<br>in the Software without restriction, including without limitation the rights<br>to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is<br>furnished to do so, subject to the following conditions:<br><br>The above copyright notice and this permission notice shall be included in all<br>copies or substantial portions of the Software.<br><br>THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,<br>FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE<br>AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER<br>LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,<br>OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
 
 [ejs.waiting]
 waitingText = "Microsoft의 응답을 기다리는 중.."
 
 [ejs.welcome]
 continueButton = "계속"
-
 
 [js.discord]
 waiting = "클라이언트 대기 중.."
@@ -204,17 +199,14 @@ downloadingFiles = "파일 다운로드 중.."
 errorDuringFileDownloadTitle = "파일 다운로드 중 오류 발생"
 preparingToLaunch = "실행 준비 중.."
 launchingGame = "게임 실행 중.."
-launchWrapperNotDownloaded = "게임 실행을 위한 메인 파일(LaunchWrapper)을 다운로드할 수 없습니다.<br><br>문제 해결을 위해 임시로 안티바이러스 프로그램을 비활성화한 뒤 게임을 다시 실행해 보세요.<br><br>만약 이 문제가 계속된다면, <a href=\"https://github.com/peunsu/MRSLauncher/issues\">GitHub 이슈 페이지</a>에 사용 중인 안티바이러스 프로그램과 함께 문제를 제보해 주세요."
+launchWrapperNotDownloaded = "게임 실행을 위한 메인 파일(LaunchWrapper)을 다운로드할 수 없습니다.<br><br>문제 해결을 위해 임시로 안티바이러스 프로그램을 비활성화한 뒤 게임을 다시 실행해 보세요.<br><br>만약 이 문제가 계속된다면, <a href=\"https://discord.gg/HwcUG96gEB\"\>철팽플랫폼 디스코드에</a>에 사용 중인 안티바이러스 프로그램과 함께 문제를 제보해 주세요."
 doneEnjoyServer = "완료. 즐거운 시간 되세요!"
 checkConsoleForDetails = "콘솔 (CTRL + Shift + i) 에서 자세한 내용을 확인하세요."
-
-[js.landing.news]
-checking = "뉴스 확인 중"
 
 [js.landing.discord]
 loading = "게임 로딩 중.."
 joining = "서버 접속 중.."
-joined = "Mystic Red Space"
+joined = "플레이 중!"
 
 [js.overlay]
 dismiss = "닫기"
@@ -249,13 +241,6 @@ uuid = "UUID"
 selectAccount = "계정 선택"
 selectedAccount = "선택된 계정 ✓"
 logout = "로그아웃"
-
-[js.settings.dropinMods]
-removeButton = "제거"
-deleteFailedTitle = "사용자 추가 모드 삭제 실패<br>{fullName}"
-deleteFailedMessage = "삭제하려는 파일이 사용 중인지 확인하고 다시 시도해 주세요."
-failedToggleTitle = "사용자 추가 모드를<br>활성화/비활성화할 수 없습니다."
-okButton = "확인"
 
 [js.settings.serverListing]
 mainServer = "메인 서버"

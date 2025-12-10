@@ -14,6 +14,7 @@
                     <div class="settingsNavSpacer"></div>
                     <button class="settingsNavItem" rSc="settingsTabAbout"><%- lang('settings.navAbout') %></button>
                     <button class="settingsNavItem" rSc="settingsTabUpdate" id="settingsNavUpdate"><%- lang('settings.navUpdates') %></button>
+                    <button class="settingsNavItem" rSc="settingsTabLicense" id="settingsNavLicense"><%- lang('settings.navLicense') %></button>
                     <div id="settingsNavContentBottom">
                         <div class="settingsNavDivider"></div>
                         <button id="settingsNavDone"><%- lang('settings.navDone') %></button>
@@ -142,13 +143,6 @@
                 <div id="settingsOptModsContainer">
                     <div class="settingsModsHeader"><%- lang('settings.optionalMods') %></div>
                     <div id="settingsOptModsContent">
-                        
-                    </div>
-                </div>
-                <div id="settingsDropinModsContainer">
-                    <div class="settingsModsHeader"><%- lang('settings.dropinMods') %></div>
-                    <button id="settingsDropinFileSystemButton"><%- lang('settings.addMods') %> <span id="settingsDropinRefreshNote"><%- lang('settings.dropinRefreshNote') %></span></button>
-                    <div id="settingsDropinModsContent">
                         
                     </div>
                 </div>
@@ -331,7 +325,7 @@
                 <div id="settingsAboutButtons">
                     <a href="<%- lang('settings.sourceGithubLink') %>" id="settingsAboutSourceButton" class="settingsAboutButton"><%- lang('settings.sourceGithub') %></a>
                     <!-- The following must be included in third-party usage. -->
-                    <a href="https://github.com/dscalzi/HeliosLauncher" id="settingsAboutSourceButton" class="settingsAboutButton"><%- lang('settings.sourceOriginalGithub') %></a>
+                    <a href="https://github.com/peunsu/MRSLauncher" id="settingsAboutSourceButton" class="settingsAboutButton"><%- lang('settings.sourceOriginalGithub') %></a>
                     <a href="<%- lang('settings.supportLink') %>" id="settingsAboutSupportButton" class="settingsAboutButton"><%- lang('settings.support') %></a>
                     <a href="#" id="settingsAboutDevToolsButton" class="settingsAboutButton"><%- lang('settings.devToolsConsole') %></a>
                 </div>
@@ -345,9 +339,6 @@
                     <div class="settingsChangelogText">
                         <%- lang('settings.noReleaseNotes') %>
                     </div>
-                </div>
-                <div class="settingsChangelogActions">
-                    <a class="settingsChangelogButton settingsAboutButton" href="#"><%- lang('settings.viewReleaseNotes') %></a>
                 </div>
             </div>
         </div>
@@ -386,6 +377,17 @@
                         <%- lang('settings.noReleaseNotes') %>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div id="settingsTabLicense" class="settingsTab" style="display: none;">
+        <div class="settingsTabHeader">
+            <span class="settingsTabHeaderText"><%- lang('settings.licenseHeaderText') %></span>
+            <span class="settingsTabHeaderDesc"><%- lang('settings.licenseHeaderDesc') %></span>
+        </div>
+        <div class="settingsFieldContainer">
+            <div class="settingsField">
+                <span class="settingsFieldTitle"><%- lang('settings.license') %></span>
             </div>
         </div>
     </div>

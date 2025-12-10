@@ -1,13 +1,13 @@
 {
-  "name": "mrslauncher",
-  "version": "3.0.8",
-  "productName": "MRS Launcher",
+  "name": "cplauncher",
+  "version": "1.0.0",
+  "productName": "CP Launcher",
   "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/), peunsu (https://github.com/peunsu)",
-  "license": "UNLICENSED",
-  "homepage": "https://github.com/peunsu/MRSLauncher",
+  "author": "Daniel Scalzi (https://github.com/dscalzi/), peunsu (https://github.com/peunsu), sebs3054 (https://github.com/githubmahan)",
+  "license": "MIT",
+  "homepage": "https://github.com/githubmahan/CPLauncher",
   "bugs": {
-    "url": "https://github.com/peunsu/MRSLauncher/issues"
+    "url": "https://github.com/githubmahan/CPLauncher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -46,6 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peunsu/MRSLauncher.git"
+    "url": "git+https://github.com/githubmahan/CPLauncher.git"
   }
 }

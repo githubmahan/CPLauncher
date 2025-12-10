@@ -1,8 +1,8 @@
-appId: 'mrslauncher'
-productName: 'MRS Launcher'
-artifactName: 'MRS-Launcher-setup-${version}.${ext}'
+appId: 'cplauncher'
+productName: 'CP Launcher'
+artifactName: 'CP-Launcher-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2018-2024 Daniel Scalzi, Copyright © 2024 peunsu'
+copyright: 'Copyright © 2018-2024 Daniel Scalzi, Copyright © 2024 peunsu, Copyright © 2025 sebs3054'
 
 asar: true
 compression: 'maximum'
@@ -33,19 +33,22 @@ mac:
       arch:
         - 'x64'
         - 'arm64'
-  artifactName: 'MRS-Launcher-setup-${version}-${arch}.${ext}'
+  artifactName: 'CP-Launcher-setup-${version}-${arch}.${ext}'
   category: 'public.app-category.games'
 
 # Linux Configuration
 linux: 
   target: 'AppImage'
-  maintainer: 'Daniel Scalzi, peunsu'
-  vendor: 'Daniel Scalzi, peunsu'
+  maintainer: 'Daniel Scalzi, peunsu, sebs3054'
+  vendor: 'Daniel Scalzi, peunsu, sebs3054'
   synopsis: 'Modded Minecraft Launcher'
   description: 'Custom launcher which allows users to join modded servers. All mods, configurations, and updates are handled automatically.'
   category: 'Game'
 
-
 directories:
   buildResources: 'build'
   output: 'dist'
+
+publish:
+  provider: 'generic'
+  url: 'https://mahan.kr/cplauncher/'
