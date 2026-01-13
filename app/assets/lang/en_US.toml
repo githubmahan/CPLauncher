@@ -8,9 +8,15 @@ serverStatusPlaceholder = "OFFLINE"
 mojangStatus = "MOJANG STATUS"
 mojangStatusTooltipTitle = "Services"
 mojangStatusNETitle = "Non&nbsp;Essential"
+newsButton = "NEWS"
 launchButton = "PLAY"
 launchButtonPlaceholder = "&#8226; No Server Selected"
 launchDetails = "Please wait.."
+newsNavigationStatus = "{currentPage} of {totalPages}"
+newsErrorLoadSpan = "Checking for News.."
+newsErrorFailedSpan = "Failed to Load News"
+newsErrorRetryButton = "Try Again"
+newsErrorNoneSpan = "No News"
 
 [ejs.login]
 loginCancelText = "Cancel"
@@ -113,6 +119,8 @@ noReleaseNotes = "No Release Notes"
 viewReleaseNotes = "View Release Notes on GitHub"
 launcherUpdatesHeaderText = "Launcher Updates"
 launcherUpdatesHeaderDesc = "Download, install, and review updates for the launcher."
+licenseHeaderText = "License"
+licenseHeaderDesc = "View license."
 checkForUpdates = "Check for Updates"
 whatsNew = "What's New"
 updateReleaseNotes = "Update Release Notes"
@@ -123,7 +131,6 @@ waitingText = "Waiting for Microsoft.."
 
 [ejs.welcome]
 continueButton = "CONTINUE"
-
 
 [js.discord]
 waiting = "Waiting for Client.."
@@ -201,6 +208,9 @@ launchingGame = "Launching game.."
 launchWrapperNotDownloaded = "The main file, LaunchWrapper, failed to download properly. As a result, the game cannot launch.<br><br>To fix this issue, temporarily turn off your antivirus software and launch the game again.<br><br>If you have time, please <a href=\"https://github.com/peunsu/MRSLauncher/issues\">submit an issue</a> and let us know what antivirus software you use. We'll contact them and try to straighten things out."
 doneEnjoyServer = "Done. Enjoy the server!"
 checkConsoleForDetails = "Please check the console (CTRL + Shift + i) for more details."
+
+[js.landing.news]
+checking = "Checking for News"
 
 [js.landing.discord]
 loading = "Loading game.."
